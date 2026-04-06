@@ -29,7 +29,7 @@ print("bool(\"False\") is True  ", bool("False"));
 no1 = input("Enter no1: ")
 no2 = input("Enter no2: ")
 
-print("You have entered ", no1, no2)
+print("Y+9*/ou have entered ", no1, no2)
 print("Addition ", no1 + no2)
 
 print("Addition ", int(no1) + int(no2))
