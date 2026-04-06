@@ -28,4 +28,4 @@ print("Find index of text or character ", first_name.find("Pr"));
 print("Replace ", first_name.replace("P", "R"))
 
 print("If contains return true/false ->", "Pr" in first_name)
-print("If not contains return true/false ->", "Pr" not first_name)
+print("If not contains return true/false ->", "Pr" not in first_name)
