@@ -37,3 +37,10 @@ if users:
 users = [];
 if not users:
     print("Users is empty");
+
+temp = None;
+if temp == None:
+    print("Its none");
+
+if not temp:
+    print("It is not none");
