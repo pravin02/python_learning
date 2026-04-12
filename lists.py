@@ -1,5 +1,5 @@
-# Below code show how to play list
-numbers = [1, 2, 3, 4]
+# # Below code show how to play list
+numbers = [10, 1, 2, 3, 4, 5, 6, 7, 8]
 
 print(numbers)
 
@@ -10,6 +10,15 @@ for num in numbers:
 print("\nEnumerating numbers by index")
 for i, num in enumerate(numbers):
     print(f"{i} = {numbers[i]}")
+
+
+# # List conprehensions
+print("Loop + filter the list")
+filtered_numbers = [n for n in numbers if n < 5]
+print("Filtered Numbers: ", filtered_numbers)
+
+print("Find the even elements from the list: ", [n for n in numbers if n % 2 == 0])
+print("Find the odd elements from the list: ", [n for n in numbers if n % 2 != 0])
 
 # Lists can contains different types of data types
 
@@ -25,6 +34,21 @@ print("\n Code to check data type of its content")
 for i, data in enumerate(lists):
     print(f"{i} --- {data} --- {type(data).__name__}")
 
+
+lists = ["one", "two", "three", "Four", "Five"]
+print("\n", lists)
+print("Print list from two: ", lists[1:])
+print("Print list from two to three: ", lists[1:3])
+print("reverse list without altering content: ", lists[::-1])
+lists.reverse()
+print("reverse list and alter the content: ", lists)
+print("Count the present of element in the list: ", lists.count("one"))
+lists.remove("one")
+print("Remove the 'one' from the list: ", lists)
+print("Pop out last element from the list: ", lists.pop())
+print("List after poping out: ", lists)
+lists.sort(reverse=True)
+print("Sort list in natural order: ", lists)
 
 print("\n Program which takes input from user")
 
