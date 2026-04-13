@@ -11,6 +11,9 @@ class Vehicle:
             print(f"Name of the vehicle is not defined")
             return
         print(f"Vehicle {self.name} is {self.model}")
+    
+    def number_of_wheels(self):
+        return self.wheels;
 
 
 vehicle = Vehicle("", "")
