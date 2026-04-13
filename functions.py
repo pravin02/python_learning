@@ -7,6 +7,7 @@
 def simple():
     print("Simple")
 
+
 simple()
 
 
@@ -36,6 +37,14 @@ def running_sum(*numbers):
 
 
 print("Variable Argument ", running_sum(2, 3, 5, 1))
+
+
+def stats(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key} -- {value}")
+
+
+stats(name="Pravin", age=10, salary="1 Lack")
 
 
 # Keyword argument
