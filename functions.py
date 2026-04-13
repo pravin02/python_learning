@@ -92,20 +92,20 @@ numbs = (x**2 for x in range(11))
 print(list(numbs))
 
 # Infinite Sequence: Generators can be infinitely recursive/iterative or model data strams
-import random
+# import random
 
-attacks = ["Kimura", "armbar", "triangle"]
-
-
-def lazy_random_attacks():
-    """Laxily yield random attacks forever"""
-    while True:
-        attack = random.choice(attacks)
-        print("Yielding attack")
-        yield attack
+# attacks = ["Kimura", "armbar", "triangle"]
 
 
-generator = lazy_random_attacks()
+# def lazy_random_attacks():
+#     """Laxily yield random attacks forever"""
+#     while True:
+#         attack = random.choice(attacks)
+#         print("Yielding attack")
+#         yield attack
 
-for _ in range(5):
-    print(next(generator))
+
+# generator = lazy_random_attacks()
+
+# for _ in range(5):
+#     print(next(generator))
