@@ -14,10 +14,12 @@ class TestFunctions:
     def teardown(self):
         print("teardown runs after every single test")
 
-    def setup_class(self):
+    @classmethod
+    def setup_class(cls):
         print("setup_class runs before every single test")
 
-    def teardown_class(self):
+    @classmethod
+    def teardown_class(cls):
         print("teardown_class runs after every single test")
 
     def test_full_name(self):
