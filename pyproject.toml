@@ -8,4 +8,5 @@ dependencies = [
     "click>=8.3.3",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
+    "setuptools>=82.0.1",
 ]
